@@ -56,7 +56,7 @@ def WRITE_DetailAP(ip,port,listMac,pathLog):
 		#print detailB
 		#print detailC
 		try:
-		    print ("******try*****"+detailB['userLocationInfo'])
+			print ("******try*****"+detailB['userLocationInfo'])
 		except TypeError:
 			print ("*******except****"+str(detailB['userLocationInfo']['areaCode']))
 		
